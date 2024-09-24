@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.main {
+	width: 100%;
+	min-height: 100vh;
+}
+.one {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+}
+.one h1 {
+	color: #fff;
+	font-size: 4vw;
+	font-family: "Kanit", sans-serif;
+}
+.two {
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #fff;
+}
+.text-area {
+	position: absolute;
+	font-family: "Kanit", sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	opacity: 0.23;
+	left: 6%;
+	width: 100%;
+	top: 40%;
+}
+.text-area-2 {
+	position: absolute;
+	font-family: "Kanit", sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	opacity: 1;
+	left: 6%;
+	top: 40%;
+}
+.text-area h1,
+.text-area-2 h1 {
+	font-size: 2.6vw;
+}
+.text-area h2,
+.text-area-2 h2 {
+	font-size: 2.6vw;
+}
+
+.text-area-2 h1 {
+	width: 0%;
+	text-wrap: nowrap;
+	overflow: hidden;
+}
+
+.text-area-2 h2 {
+	width: 0%;
+	text-wrap: nowrap;
+	overflow: hidden;
+}
